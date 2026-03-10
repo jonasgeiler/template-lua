@@ -3,4 +3,18 @@
 
 # Editor/IDE
 .idea/
-.vscode/
+.vscode/*
+!/.vscode/extensions.json
+
+# LuaRocks
+.luarocks/
+lua_modules/
+lua/
+luarocks/
+*.src.rock
+*.tar.gz
+*.zip
+luarocks.lock
+
+# Temporary Files
+/test.lua
