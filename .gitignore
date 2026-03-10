@@ -14,7 +14,6 @@ luarocks/
 *.src.rock
 *.tar.gz
 *.zip
-luarocks.lock
 
 # Temporary Files
 /test.lua
